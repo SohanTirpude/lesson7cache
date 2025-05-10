@@ -1,7 +1,9 @@
 name: Test cache workflow
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   test_cache:
